@@ -79,6 +79,7 @@ body {
     min-height: 350px;
     height: 370px;
     overflow-y: auto;
+    background-color: #fff;
 
     .bottom-line {
         border-bottom: 4px solid var(--secondary-color);
@@ -86,6 +87,10 @@ body {
 
     .avatar-box {
         box-shadow: var(--box-shadow);
+
+        p {
+            font-size: 14px;
+        }
 
         .avatar-box--icon {
             width: 50px;
@@ -125,13 +130,12 @@ body {
 }
 
 
-/* ===== Sidebar ===== */
 .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
-    width: 200px;
+    width: 210px;
     padding: 10px 14px;
     background: #fff;
     transition: all 0.3s ease;
@@ -204,6 +208,7 @@ body {
     border-radius: 6px;
     text-decoration: none;
     transition: all 0.3s ease;
+    font-size: 14px;
 }
 
 .menu-bar::-webkit-scrollbar {
@@ -218,9 +223,9 @@ body {
     position: absolute;
     top: 0;
     top: 0;
-    left: 217px;
+    left: 224px;
     height: 100vh;
-    width: calc(100% - 217px);
+    width: calc(100% - 224px);
     transition: all 0.3s ease;
     margin-top: 74px;
     background-color: #F5F4F4;
@@ -307,4 +312,5 @@ header {
 
 footer {
     border-top: 2px solid var(--primary-color);
+    background-color: #fff;
 }
